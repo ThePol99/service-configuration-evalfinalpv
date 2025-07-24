@@ -1,0 +1,21 @@
+{
+  "eureka": {
+    "instance": {
+      "instanceId": "${spring.application.name}:${random.uuid}",
+      "hostname": "localhost",
+      "preferIpAddress": false
+    },
+    "client": {
+      "registerWithEureka": true,
+      "fetchRegistry": true,
+      "serviceUrl": {
+        "defaultZone": "http://localhost:8777/eureka"
+      }
+    }
+  },
+  "spring": {
+    "application": {
+      "name": "events"
+    }
+  }
+}
