@@ -1,8 +1,4 @@
 {
-  "eureka.instance.instance-id": "${spring.application.name}:${random.uuid}",
-  "eureka.instance.hostname": "localhost",
-  "eureka.instance.prefer-ip-address": "false",
-  "eureka.client.register-with-eureka": "true",
-  "eureka.client.fetch-registry": "true",
-  "eureka.client.service-url.defaultZone": "http://localhost:8777/eureka"
+  "spring.data.mongodb.uri": "mongodb://localhost:27018/eventos_db",
+  "spring.data.mongodb.auto-index-creation":"true"
 }
