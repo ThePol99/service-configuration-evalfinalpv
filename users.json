@@ -1,4 +1,0 @@
-{
-  "spring.datasource.username" : "users_user",
-  "spring.datasource.password":"users_password"
-}
